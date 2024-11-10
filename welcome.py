@@ -42,3 +42,8 @@ def less_than_10(num: int) -> None:
         print("Small Number")
     else:
         print("HUGEEEEEEE")
+
+
+word: list[str] = ["F", "l", "y"]
+for x in word:
+    print(word[x])
